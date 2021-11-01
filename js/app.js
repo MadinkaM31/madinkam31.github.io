@@ -1,7 +1,7 @@
 (function () {
     const header = document.querySelector('.header2');
     window.onscroll = () => {
-    	if (window.pageYOffset > 739 & window.pageYOffset <= 2800){
+    	if (window.pageYOffset > 739 & window.pageYOffset <= 2900){
     		header.classList.add('header2_fixed');
     	}
     	else{
